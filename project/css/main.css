@@ -51,12 +51,9 @@ section{
   margin-top: 10px;
 
 }
-section ul li{
-  
+ul {
+  list-style-type: none;
 }
-
-
-
 
 /*Footer*/
 .full-width {

@@ -1,7 +1,7 @@
 <div class="quiz-area" ng-show="inProgress">
 	<div ng-show="!quizOver">
 		<h5 id="question">{{question}}</h5>
-		<ul id="options">
+		<ul id="options" class="no-bullet">
 			<li ng-repeat="option in options">
 				<label>
 					<input type="radio" name="answer" value="{{option}}">
